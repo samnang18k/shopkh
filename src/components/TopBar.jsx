@@ -1,12 +1,11 @@
 import React from 'react'
-import logo from '../assets/logo.png'
 import { User,ShoppingCart, Moon, Search } from 'lucide-react'
 
 const TopBar = () => {
   return (
     <section className=" py-4 px-12 flex items-center justify-between bg-white shadow-md ">
       <div className=" flex items-center justify-center gap-3 cursor-pointer  ">
-        <img src={logo} alt=""  className="w-13 md:w-11 "/>
+        <img src="/logo.png" alt=""  className="w-13 md:w-11 "/>
         <span className="text-2xl font-bold text-gray-800 md:text-2xl">
            <span className="text-purple-600">KH</span>
             SHOP
